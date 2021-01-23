@@ -5,6 +5,10 @@ fn main() {
 
     println!("Please input your guess.");
 
+    let lala = String::from("hello world");
+
+    println!("you said {}",lala);
+
     let mut guess = String::new();
 
     io::stdin()
